@@ -92,6 +92,7 @@ spring:
     path: /Service
 
 server:
+  port: 8083
   tomcat:
     use-relative-redirects: true
     apr-enabled: false

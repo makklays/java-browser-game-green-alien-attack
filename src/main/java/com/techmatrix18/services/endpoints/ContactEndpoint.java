@@ -12,7 +12,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
 /**
  * Controller for managing contact.
- * Available at URL: http://localhost:8080/ws/countries.wsdl
+ * Available at URL: http://localhost:8083/ws/countries.wsdl
  *
  * @author Alexander Kuziv
  * @since 13.03.2025

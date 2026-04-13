@@ -77,7 +77,7 @@ jdbc:mysql://host.docker.internal:3306/aton
 
 ----------------------------------------------------------------------------------------------------------------------
 Postman
-метод POST http://localhost:8080/ws
+метод POST http://localhost:8083/ws
 Postman Вкладка Header -> Content-Type: text/xml
 Postman Вкладка raw -> XML
 <?xml version="1.0" encoding="UTF-8"?>
