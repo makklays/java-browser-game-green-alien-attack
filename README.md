@@ -5,7 +5,7 @@ en base de datos.
 
 <p align="left">
     <img src="./src/main/resources/mystatic/images/java-game5.jpeg" width="400" />
-    <img src="./src/main/resources/mystatic/images/java-game6.jpeg" width="400" />
+    <img src="./src/main/resources/mystatic/images/java-game7.jpeg" width="400" />
 </p>
 
 ### 🎨 Modelo de Base de Datos
