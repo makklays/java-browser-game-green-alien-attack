@@ -1,6 +1,10 @@
 # El proyecto: Green Alien Attack 📡🛸👽 Java, Browser game
 
-Yo como Arquitectador =) pinté esta eschema UML para mejor entender el proyecto con sus tablas
+A production-ready **Browser Game** ecosystem built with **Java, Docker-compose** infrastructure, and a robust relational database (PostgreSQL) architecture.
+
+The project name **'Green Alien Attack'** reflects a dynamic, retro-futuristic arcade experience where **web-based frontend** (Thymeleaf) interfaces seamlessly communicate with a scalable **Java backend** to track players, sessions, and live scores.
+
+Yo como Arquitectador =) pinté esta eschema **UML** para mejor entender el proyecto con sus tablas
 en base de datos. 
 
 <p align="left">
