@@ -2,7 +2,12 @@
 
 Yo como Arquitectador =) pinté esta eschema UML para mejor entender el proyecto con sus tablas
 
-en base de datos. 
+en base de datos.
+
+<p align="left">
+    <img src="./src/main/resources/mystatic/eschemas/java-game1.png" width="400" />
+    <img src="./src/main/resources/mystatic/eschemas/java-game2.png" width="400" />
+</p>
 
 <img src="./src/main/resources/mystatic/eschemas/photo_2025-07-09_23-05-17.jpg" title="Eschema las tablas con relaciones" />
 
