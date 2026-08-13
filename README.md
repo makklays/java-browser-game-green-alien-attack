@@ -1,4 +1,4 @@
-# El proyecto: java-in-docker
+# El proyecto: Green Alien Attack 📡🛸👽 Java, Browser game
 
 Yo como Arquitectador =) pinté esta eschema UML para mejor entender el proyecto con sus tablas
 
