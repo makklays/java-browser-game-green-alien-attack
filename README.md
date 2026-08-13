@@ -1,8 +1,13 @@
-# El proyecto: java-in-docker
+# El proyecto: Green Alien Attack 📡🛸👽 Java, Browser game
 
 Yo como Arquitectador =) pinté esta eschema UML para mejor entender el proyecto con sus tablas
 
-en base de datos. 
+en base de datos.
+
+<p align="left">
+    <img src="./src/main/resources/mystatic/eschemas/java-game1.png" width="400" />
+    <img src="./src/main/resources/mystatic/eschemas/java-game2.png" width="400" />
+</p>
 
 <img src="./src/main/resources/mystatic/eschemas/photo_2025-07-09_23-05-17.jpg" title="Eschema las tablas con relaciones" />
 
@@ -26,8 +31,20 @@ Tu puedes pagar y comprar nuevos artifactos desde tu tarjeta o USDT (Tether)... 
 </p>
 
 ### En Postman
-<img src="./src/main/resources/mystatic/eschemas/photo_2025-04-28_22-05-56.jpg" />
+
+<img src="./src/main/resources/mystatic/eschemas/04-07-2025-23-28.png" />
 <img src="./src/main/resources/mystatic/eschemas/photo_2025-07-08_19-56-55.jpg" />
+<br/>
+<img src="./src/main/resources/mystatic/images/protobuf/1000000109.png" width="170" />
+<!--img src="./src/main/resources/mystatic/images/protobuf/1000000106.png" width="170" /-->
+
+### Swagger - OpenApi - REST API 
+
+<img src="./src/main/resources/mystatic/images/protobuf/swagger-mob.png" width="800" />
+
+y más
+
+<img src="./src/main/resources/mystatic/images/protobuf/swagger-mob-2.png" width="800" />
 
 Pronto será más... 
 

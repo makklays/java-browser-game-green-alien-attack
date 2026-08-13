@@ -1,6 +1,9 @@
 
-
 spring:
+  devtools:
+    restart:
+      exclude:
+        - "**/bytedeco/**"
   application:
     name: java-in-docker
   datasource:
@@ -11,6 +14,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   web:
     resources:
+      media-types:
+        wav: audio/wav
       static-locations: file:/home/alexander/IdeaProjects/JavaInDocker/src/main/resources/mystatic/
   jpa:
     show-sql: true
@@ -49,6 +54,8 @@ spring:
     username: user
     password: password
   kafka:
+    admin:
+      auto-create: true
     bootstrap-servers: localhost:29092
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
@@ -85,12 +92,38 @@ spring:
     path: /Service
 
 server:
+  tomcat:
+    use-relative-redirects: true
+    apr-enabled: false
   error:
     include-message: always
     include-binding-errors: always
     whitelabel:
       enabled: false
 
-#logging:
-#  level:
-#    org.thymeleaf: DEBUG
+springdoc:
+  info:
+    title: Neural Network API
+    version: 1.0
+    description: API for Neural Network Management
+  api-docs:
+    enabled: true        # Включить /v3/api-docs
+    path: /v3/api-docs   # Путь (по умолчанию /v3/api-docs)
+  swagger-ui:
+    enabled: true        # Включить Swagger UI
+    path: /swagger-ui.html  # Путь, куда перенаправлять (но по факту UI — это /swagger-ui/index.html)
+    try-it-out-enabled: true  # Кнопка "Try it out"
+
+logging:
+  level:
+    org.springframework.boot.devtools: WARN
+    org.apache.kafka.clients: WARN
+    org.apache.kafka.common: WARN
+    org.springframework.kafka: INFO
+    org.apache.tomcat: INFO
+    org.hibernate: WARN
+    org.hibernate.SQL: WARN
+    org.hibernate.type: WARN
+    com.techmatrix18: DEBUG
+    root: INFO
+#    #org.thymeleaf: DEBUG

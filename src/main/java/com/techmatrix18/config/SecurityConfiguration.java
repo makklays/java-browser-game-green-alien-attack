@@ -71,6 +71,15 @@ public class SecurityConfiguration {
                 // Setting up access to endpoints
                 //.securityMatcher("/ws", "/ws/**") // - conflict with /req/logout and /req/login
                 .authorizeHttpRequests(auth -> auth
+                    .requestMatchers(
+                            "/swagger-ui.html",
+                            "/swagger-ui/**",
+                            "/v3/api-docs/**",
+                            "/v3/api-docs",
+                            "/swagger-resources/**",
+                            "/webjars/**"
+                    ).permitAll()
+                    .requestMatchers("/audio/**").permitAll()
                     .requestMatchers("/").permitAll()
                     .requestMatchers("/req/logout").permitAll()
                     .requestMatchers("/mystatic/uploads/base-levels/**").permitAll()
@@ -85,6 +94,8 @@ public class SecurityConfiguration {
                     .requestMatchers("/req/signup").permitAll()
                     .requestMatchers("/uploads/**").permitAll()
                     .requestMatchers("/mystatic/uploads/**").permitAll()
+
+                    .requestMatchers("/kafka**").permitAll()
 
                     .requestMatchers("/api/v1/**").permitAll() // ⬅ открыть доступ
 
